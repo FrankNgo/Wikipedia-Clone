@@ -1,32 +1,69 @@
-body {
-
-}
-
 #side-panel{
-  background-color: gray;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
   width: 160px;
   position: fixed;
   height: 100%;
   z-index: 1;
 }
 
-#main-text {
-  background-color: blue;
-  margin-left: 175px;
-  height: 100%;
-  position: fixed;
-  z-index: 0;
-}
-
-#left {
-  background-color: green;
-}
-
-#right {
-  background-color: purple;
-}
-
 #logo {
   width: 160px;
   height:auto;
+}
+
+.col-md-6 {
+  padding: 0px;
+  height: 100%;
+}
+
+#main-text {
+  background-color: white;
+  padding-left: 185px;
+  padding-right: 25px;
+  z-index: 0;
+}
+
+#top {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+#middle {
+  height: 100%;
+}
+
+#left {
+  background-color: #f5fffa;
+  border: 1px solid #a3bfb1;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 2px;
+  height: 100%
+}
+#left-title {
+  background-color: #cef2e0;
+  padding: 10px;
+  border: 1px solid #a3bfb1;
+}
+
+#right {
+  background-color: #f5faff;
+  border: 1px solid #a3b0bf;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 2px;
+  height: 100%
+}
+#right-title {
+  background-color: #cedff2;
+  padding: 10px;
+  border: 1px solid #a3b0bf;
+}
+
+#bottom {
+  width: 100%;
+  background-color: gray;
 }
