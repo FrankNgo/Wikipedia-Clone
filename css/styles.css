@@ -1,0 +1,32 @@
+body {
+
+}
+
+#side-panel{
+  background-color: gray;
+  width: 160px;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
+
+#main-text {
+  background-color: blue;
+  margin-left: 175px;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+}
+
+#left {
+  background-color: green;
+}
+
+#right {
+  background-color: purple;
+}
+
+#logo {
+  width: 160px;
+  height:auto;
+}
