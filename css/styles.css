@@ -1,3 +1,6 @@
+html{
+  font-family: sans-serif;
+}
 h1 {
   text-align: center;
 }
@@ -11,6 +14,15 @@ h1 {
   float: left;
   height: 200px;
   padding-right: 4px;
+}
+
+.side-link {
+  line-height: 9px;
+  font-size: 0.9em;
+}
+
+.side-title {
+  padding-top: 10px;
 }
 
 .centered {
@@ -30,11 +42,13 @@ h1 {
   position: fixed;
   height: 100%;
   z-index: 1;
+  padding: 15px;
 }
 
 #logo {
-  width: 160px;
+  width: 130px;
   height:auto;
+  padding-bottom: 25px;
 }
 
 .col-md-6 {
